@@ -1,5 +1,7 @@
 # Hypothalamus model
 
+Responsible: Oscar Guerrero Rosado (oscar.guerrerorosado@donders.ru.nl)
+
 Hypothalamus is modeled as a neural mass model that follows attractor dynamics. This model receives internal states as inputs (i.e. energy level, temperature, security, etc.) and imposes a winner-take-all mechanism to define a motivational state that drives goal-oriented behaviors.
 
 In the hypothalamus.py script, you will find two versions of the hypothalamus model.
