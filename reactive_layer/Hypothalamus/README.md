@@ -2,9 +2,9 @@
 
 Responsible: Oscar Guerrero Rosado (oscar.guerrerorosado@donders.ru.nl)
 
-CAVAA's reactive layer is modeled as a neural mass hypothalamus model that follows attractor dynamics. This model receives internal states as inputs (i.e. energy level, temperature, security, etc.) and imposes a winner-take-all mechanism to define a motivational state that drives goal-oriented behaviors.
+Hypothalamus has been modeled as a neural mass model that follows attractor dynamics. This model receives internal states as inputs (i.e. energy level, temperature, security, etc.) and imposes a winner-take-all mechanism to define a motivational state that drives goal-oriented behaviors.
 
-In the reactive_layer.py script, you will find two versions of the hypothalamus model.
+In the hypothalamus.py script, you will find two versions of the hypothalamus model.
 
 - The **Multiattractor** class allows the implementation of a variable number of internal needs in the agent, where the number of modeled needs is equal to the number of inputs received. This version was presented at the IROS 2023 workshop Learning robot super autonomy (Detroit, USA). For more information and access to the preprint and full repository check out this [post](https://oscarguerrerorosado.github.io/Post-IROS2023.html).
 
